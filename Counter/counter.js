@@ -1,8 +1,8 @@
 let counterElement = document.getElementById("counterValue");
 
-         function onIncrement() {
-         let previousCounterValue = counterElement.textContent;
-         let updatedCounterValue = parseInt(previousCounterValue) + 1;
+    function onIncrement() {
+        let previousCounterValue = counterElement.textContent;
+        let updatedCounterValue = parseInt(previousCounterValue) + 1;
            if (updatedCounterValue > 0) {
             counterElement.style.color = "green";
             }
